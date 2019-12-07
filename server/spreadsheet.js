@@ -1,10 +1,11 @@
 var Gsheets = require('google-spreadsheet');
 const {promisify} = require('util')
 const creds = require('./config/client_secret.json')
+const {sheetId} = require('./config/sheet_id.json')
 
 
 async function accessSpreadSheet(){
-    const doc = new Gsheets('1BRpeWpAILzZ9ph2TBPR0ofIvrpO1y-Fu8lR45X7_eC0')
+    const doc = new Gsheets(sheetId)
     await promisify(doc.useServiceAccountAuth)(creds)
     const info = await promisify(doc.getInfo)()
     const sheet = info.worksheets[0]
