@@ -23,7 +23,7 @@ Use google sheets to fill in information inside HTML page:
 
 
 
-![https://ibb.co/pLJZbbk](https://ibb.co/pLJZbbk)
+![https://i.ibb.co/HHnYBB9/Screen-Shot-2019-12-07-at-8-21-19-PM.png](https://i.ibb.co/HHnYBB9/Screen-Shot-2019-12-07-at-8-21-19-PM.png)
 
 - Store information in the excel sheet
 - use the html tags as your id in your html page
